@@ -5,4 +5,10 @@
 
     <string name="tab_pokemon">Pokemon</string>
     <string name="tab_star_wars">Star Wars</string>
+
+    <string name="bulbasaur">Bulbasaur</string>
+    <string name="charmander">Charmander</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="squirtle">Squirtle</string>
+
 </resources>
