@@ -15,7 +15,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return PlaceholderFragment.newInstance(position + 1);
+        if (position == 0) {
+            return PokemonFragment.newInstance();
+        }
+        return StarWarsFragment.newInstance();
     }
 
     @Override
